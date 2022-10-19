@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvBreeds"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="13dp"
+        android:text="BREEDS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBreed" />
+
+    <TextView
+        android:id="@+id/tvFeeding"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="43dp"
+        android:text="Feeding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFeeding"
+        app:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/tvHealth"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:text="Health"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgHealth"
+        app:textAllCaps="true" />
+
+    <ImageView
+        android:id="@+id/imgBreed"
+        android:layout_width="163dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="113dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imgFeeding"
+        android:layout_width="163dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvFeeding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imgHousing"
+        android:layout_width="163dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginEnd="26dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgFeeding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imgHealth"
+        android:layout_width="163dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="31dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgBreed"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvHousing"
+        android:layout_width="104dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="14dp"
+        android:text="Housing"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgHousing"
+        app:textAllCaps="true" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="47dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+</androidx.constraintlayout.widget.ConstraintLayout>
