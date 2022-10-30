@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KukuApp</string>
+    <string name="buy_sell">BUY/SELL</string>
+    <string name="learn">LEARN</string>
+    <string name="welcome_to_kuku_app">Welcome to Kuku App!</string>
+    <string name="what_would_you_like_to_do">What would you like to do?</string>
 </resources>

@@ -5,7 +5,7 @@ plugins {
 
 android {
     compileSdk 33
-
+    dataBinding.enabled = true
     defaultConfig {
         applicationId "com.mj.kukuapp"
         minSdk 21
